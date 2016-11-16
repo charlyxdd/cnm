@@ -37,7 +37,7 @@
                     {{ trans('header.2') }}
                 </a>
 
-                <a href="#">
+                <a href="<?php echo url('/tours')?>">
                     {{ trans('header.3') }}
                 </a>
 

@@ -7,7 +7,7 @@
 @section('cuerpo')
     <div id="cuerpo">
         <div id="bannerContainer">
-            <div id="tabs">
+            <!--<div id="tabs">
                 <ul>
                     <li><a href="#tab1">{{ trans('home.tab1') }}</a></li>
                     <li><a href="#tab2">{{trans('home.tab2')}}</a></li>
@@ -62,7 +62,7 @@
                 <div id="tab2">
 
                 </div>
-            </div>
+            </div> !-->
         </div>
         <div id="targetContainer">
             <div class="target" id="targetVerde">

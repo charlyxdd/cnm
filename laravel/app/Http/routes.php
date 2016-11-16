@@ -24,6 +24,10 @@ Route::group(['middleware' => ['web']], function () {
         return view('about');
     });
 
+    Route::get('/tours',function(){
+       return view('tours');
+    });
+
     Route::get('lang/{lang}', function ($lang) {
         session(['lang'=>$lang]);
         return Redirect('/');

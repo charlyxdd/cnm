@@ -53,11 +53,21 @@ header{
 #logoContainer a img{
     width: 200px;
     opacity: 0.7;
+    transition: all 0.5s linear;
+}
+
+#logoContainer a img.chico{
+    width: 70px;
 }
 
 #headerContainer>div#navContainer{
     top:-100px;
     text-align: center;
+    transition: all 0.5s linear;
+}
+
+#headerContainer>div#navContainer.chico{
+    top:-30px;
 }
 
 nav a{

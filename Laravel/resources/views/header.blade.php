@@ -29,11 +29,11 @@
                 Acerca de nosotros
                 Contacto
                 !-->
-                <a href="#">
+                <a href="<?php echo url('/')?>">
                     {{ trans('header.1') }}
                 </a>
 
-                <a href="#">
+                <a href="<?php echo url('/about')?>">
                     {{ trans('header.2') }}
                 </a>
 

@@ -6,6 +6,9 @@
     <title>C & M Rentals</title>
     <link rel="icon" href="<?php echo url('/images/logo.png');?>">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="<?php echo url('/css/jquery-ui.min.css')?>" rel="stylesheet">
+    <link href="<?php echo url('/css/jquery-ui.structure.min.css')?>" rel="stylesheet">
+    <link href="<?php echo url('/css/jquery-ui.theme.min.css')?>" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo url('/css/main.css');?>">
     <link rel="stylesheet" href="<?php echo url('/css/header.css');?>">
     @yield('css')
@@ -18,10 +21,12 @@
     @yield('cuerpo')
 
     <script src="<?php echo url('/js/jquery.js');?>"></script>
+    <script src="<?php echo url('/js/jquery-ui.min.js')?>"></script>
     <script type="text/javascript">
         var host = "<?php echo url('/');?>";
         //console.log(host);
     </script>
     <script src="<?php echo url('/js/header.js');?>"></script>
+    @yield('js')
 </body>
 </html>

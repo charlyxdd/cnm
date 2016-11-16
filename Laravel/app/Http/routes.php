@@ -20,6 +20,10 @@ Route::group(['middleware' => ['web']], function () {
         return view('home');
     });
 
+    Route::get('/about',function(){
+        return view('about');
+    });
+
     Route::get('lang/{lang}', function ($lang) {
         session(['lang'=>$lang]);
         return Redirect('/');

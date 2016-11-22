@@ -28,4 +28,9 @@ $(document).ready(function(){
         $('#' + $(this).val()).show();
     });
 
+    $('#cmdMoreRentals').click(function(){
+        alert("Ir a home");
+        location.href="about";
+    });
+
 });

@@ -77,7 +77,7 @@
                     <img src="{{ url('/images/logoro.png') }}">
                     Scooter Tours
                 </div>
-                <button id="cmdMoreTours">More info</button>
+                <button id="cmdMoreTours">{{trans('home.masInfo')}}</button>
             </div>
             <p>{{ trans('home.moreInfo') }}</p>
         </div>
@@ -89,8 +89,10 @@
         <div id="content">
             <p></p>
             <div id="imgContainer">
-
+                <img src="{{trans('home.target2img')}}">
+                <img src="{{trans('home.target2img1')}}">
             </div>
+            <a href="{{url('/tours')}}">{{trans('home.masInfo')}}</a>
         </div>
     </div>
 @endsection
@@ -99,6 +101,6 @@
     <script src="{{ url('/js/owl.carousel.min.js') }}"></script>
     <script src="<?php echo url('/js/home.js')?>"></script>
     <script>
-        var target2="{{trans('home.target2')}}";
+        var target2='{{trans('home.target2')}}';
     </script>
 @endsection

@@ -28,6 +28,11 @@ Route::group(['middleware' => ['web']], function () {
        return view('tours');
     });
 
+    Route::get('/rentals',function(){
+        return view('rentals');
+    });
+
+
     Route::get('lang/{lang}', function ($lang) {
         session(['lang'=>$lang]);
         return Redirect('/');

@@ -41,7 +41,7 @@
                     {{ trans('header.3') }}
                 </a>
 
-                <a href="#">
+                <a href="{{ url('/rentals') }}">
                     {{ trans('header.4') }}
                 </a>
 

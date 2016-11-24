@@ -84,9 +84,21 @@
         <div id="txtFun">
         </div>
     </div>
+
+    <div id="negro">
+        <div id="content">
+            <p></p>
+            <div id="imgContainer">
+
+            </div>
+        </div>
+    </div>
 @endsection
 
 @section('js')
     <script src="{{ url('/js/owl.carousel.min.js') }}"></script>
     <script src="<?php echo url('/js/home.js')?>"></script>
+    <script>
+        var target2="{{trans('home.target2')}}";
+    </script>
 @endsection

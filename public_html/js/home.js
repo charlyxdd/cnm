@@ -28,4 +28,16 @@ $(document).ready(function(){
         $('#' + $(this).val()).show();
     });
 
+    $('#cmdMoreRentals').click(function(){
+        location.href="about";
+    });
+
+    $('#cmdMoreTours').click(function(){
+        $('#content').children('p').html(target2);
+        $('#negro').fadeIn('fast');
+    });
+
+    $('#negro').click(function(){
+        $(this).fadeOut('fast');
+    });
 });

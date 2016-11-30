@@ -32,6 +32,10 @@ Route::group(['middleware' => ['web']], function () {
         return view('rentals');
     });
 
+    Route::get('/tour/{tour}',function($tour){
+        return view('tour');
+    });
+
 
     Route::get('lang/{lang}', function ($lang) {
         session(['lang'=>$lang]);

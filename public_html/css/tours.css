@@ -50,54 +50,24 @@ html,body{
     padding-bottom:50px;
 }
 
-.container{
-    text-align: center;
-    /*margin-bottom:240px;*/
-    margin-bottom:20px;
-}
-
-.container>div{
-    display: inline-block;
-    overflow: hidden;
-    vertical-align: middle;
-    text-align: justify;
-}
-
-.imagenContainer{
+#scooterTour{
+    background: url('../images/scooterTour.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     width:30%;
-    text-align: center;
-}
-
-.imagenContainer>img{
-    width: 100%;
-    display: block;
-    margin:auto;
-}
-
-.infoContainer{
-    width: 60%;
-    margin:2.5%;
-}
-
-.separador{
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    position:absolute;
-    left:0;
-    margin:-220px 0;
     height: 200px;
+    cursor:pointer;
+
+}
+
+.tour span{
+    display: flex;
     justify-content: center;
-}
-
-.separador img{
-    display: inline-block;
-    width: 20%;
-    transition:all 0.5s linear;
-    vertical-align: middle;
-    margin:-2px;
-}
-
-.separador img:hover{
-    width: 25%;
+    align-content: center;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.3);
+    color:white;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
 }

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('css')
-    <link href="<?php echo url('/css/tour.css');?>" rel="stylesheet">
+    <link href="<?php echo url('/css/tours.css');?>" rel="stylesheet">
 @endsection
 
 @section('cuerpo')

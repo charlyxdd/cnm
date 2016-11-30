@@ -10,7 +10,7 @@ $(document).ready(function(){
     });
 
     $('.tour').click(function(){
-       window.locationf="tour/" + $(this).children('span').html();
+       location.href="tour/" + encodeURI($(this).children('span').html());
     });
 
 });

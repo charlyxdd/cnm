@@ -9,6 +9,7 @@ html,body{
     height: 100%;
     display: block;
     background-color: transparent;
+    color:black;
 }
 
 #bannerContainer{
@@ -69,9 +70,10 @@ html,body{
 }
 
 .imagenContainer>img{
-    width: 100%;
+    max-width: 100%;
     display: block;
     margin:auto;
+    max-height: 300px;
 }
 
 .infoContainer{
@@ -100,4 +102,57 @@ html,body{
 
 .separador img:hover{
     width: 25%;
+}
+
+#funContainer{
+    position:absolute;
+    left:0;
+    width: 100%;
+    height:200px;
+    background: url('../images/banner1.jpg');
+    background-position-y: 100px;
+    background-attachment: fixed;
+    background-size: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin:20px -2px 0 0;
+}
+
+#funContainer{
+    font-size: 50px;
+    font-style: italic;
+}
+
+#funContainer p{
+    text-align: center;
+    color:white;
+}
+
+#puntosContainer{
+    margin-top:270px;
+    text-align: center;
+}
+
+#puntosContainer>div{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: left;
+    margin:0 1% 0 1%;
+}
+
+.photostack-img img{
+    display: block;
+    width: 100%;
+}
+
+#tituloContainer{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin:20px 0 20px 0;
 }

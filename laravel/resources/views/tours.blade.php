@@ -10,7 +10,7 @@
         <div id="textoContainer">
             <h1>Tours</h1>
             <br>
-            <div id="scooterTour" class="tour">
+            <div id="scooterTour" class="tour" style="background-image: url('<?php echo  url('/images/scooterTour.jpg')?>');">
                 <span>Scooter Tour</span>
             </div>
         </div>

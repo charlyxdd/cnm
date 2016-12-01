@@ -21,14 +21,10 @@
                 <img src="<?php echo url('/images/logo.png')?>">
             </a>
         </div>
+
         <div id="navContainer">
+            <button id="cmdMenu"><img src="{{url('/images/menu.png')}}"></button>
             <nav>
-                <!--
-                Inicio
-                Galeria
-                Acerca de nosotros
-                Contacto
-                !-->
                 <a href="<?php echo url('/')?>">
                     {{ trans('header.1') }}
                 </a>

@@ -1,12 +1,15 @@
 var contador=1;
 $(document).ready(function(){
     setInterval(cargarAnimacionBanner,3000);
-    $('.tour').children('span').hide();
+    if($(window).width()>800)
+        $('.tour').children('span').hide();
 
     $('.tour').hover(function(){
-        $(this).children('span').slideDown('fast');
+        if($(window).width()>800)
+            $(this).children('span').slideDown('fast');
     },function(){
-        $(this).children('span').slideUp('fast');
+        if($(window).width()>800)
+            $(this).children('span').slideUp('fast');
     });
 
     $('.tour').click(function(){

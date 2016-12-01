@@ -12,13 +12,35 @@ $(document).ready(function(){
     });
 
     $(window).scroll(function(){
-        if($(window).scrollTop()>=50){
-            $('#logoContainer a img').addClass('chico');
-            $('#navContainer').addClass('chico');
+        if(parseInt($(window).width())>800) {
+            if ($(window).scrollTop() >= 50) {
+                $('#logoContainer a img').addClass('chico');
+                $('#navContainer').addClass('chico');
+            }
+            else {
+                $('#logoContainer a img').removeClass('chico');
+                $('v#navContainer').removeClass('chico');
+            }
+        }
+    });
+
+    $('#cmdMenu').click(function(){
+        if($(window).width()<800){
+            if($('header nav').css('display')=='none'){
+                $('header nav').slideDown('fast');
+            }
+            else{
+                $('header nav').slideUp('fast');
+            }
+        }
+    });
+
+    $(window).resize(function(){
+        if($(window).width()>782){
+            $('header nav').show();
         }
         else{
-            $('#logoContainer a img').removeClass('chico');
-            $('v#navContainer').removeClass('chico');
+            $('header nav').hide();
         }
     });
 });

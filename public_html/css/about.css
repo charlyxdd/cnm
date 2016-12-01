@@ -42,3 +42,9 @@ html,body{
     flex-direction: column;
     margin-top:20px;
 }
+
+@media screen and (max-width: 800px){
+    #bannerContainer, #imgContainer{
+        height: 250px;
+    }
+}

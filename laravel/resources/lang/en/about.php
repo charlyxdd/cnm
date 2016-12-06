@@ -11,5 +11,6 @@ return [
     'precio4'=>'$35 per day with full coverage ($250 deductible)',
     'item3'=>'Harley Davidson',
     'precio5'=>'$150 per day with full coverage ($250 deductible)',
-    'p4'=>'Please allow us to take you on a scooter tour excursion.  Your local tour guide will show you the secrets of Cozumel. See Tours on the menu above for more information about tours, or contact us anytime.'
+    'p4'=>'Please allow us to take you on a scooter tour excursion.  Your local tour guide will show you the secrets of Cozumel. See Tours on the menu above for more information about tours, or contact us anytime.',
+    'p5'=>'We offer daily, weekly and monthly rates for scooters, and even Harley Davidsons!'
 ];

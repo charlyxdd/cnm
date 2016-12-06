@@ -29,6 +29,11 @@
                         <li>{{trans('rentals.precio3')}}</li>
                         <li>{{trans('rentals.precio4')}}</li>
                     </ul>
+                    <br>
+                    <div class="imagenContainer">
+                        <img src="{{ url('/images/bannerRentals.jpg') }}">
+                        <img src="{{url('/images/moped1.jpg')}}">
+                    </div>
                 </li>
                 <br>
                 <li>
@@ -38,6 +43,11 @@
                         <li>{{trans('rentals.precio5')}}</li>
 
                     </ul>
+                    <br>
+                    <div class="imagenContainer">
+                        <img src="{{ url('/images/harley.jpg') }}">
+                        <img src="{{url('/images/harley3.jpg')}}">
+                    </div>
                 </li>
             </ul>
             <br>

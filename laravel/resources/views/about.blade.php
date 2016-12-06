@@ -29,6 +29,11 @@
                         <li>{{trans('about.precio3')}}</li>
                         <li>{{trans('about.precio4')}}</li>
                     </ul>
+                    <br>
+                    <div class="imagenContainer">
+                        <img src="{{ url('/images/bannerRentals.jpg') }}">
+                        <img src="{{url('/images/moped1.jpg')}}">
+                    </div>
                 </li>
                 <br>
                 <li>
@@ -38,8 +43,15 @@
                         <li>{{trans('about.precio5')}}</li>
 
                     </ul>
+                    <br>
+                    <div class="imagenContainer">
+                        <img src="{{ url('/images/harley.jpg') }}">
+                        <img src="{{url('/images/harley3.jpg')}}">
+                    </div>
                 </li>
             </ul>
+            <br>
+            <p><b>{{trans('about.p5')}}</b></p>
             <br>
             <p>{{trans('about.p4')}}</p>
         </div>

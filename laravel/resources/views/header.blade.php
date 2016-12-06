@@ -11,8 +11,9 @@
                 <img src="<?php echo url('/images/twitterblack.png');?>">
             </a>
 
-            <p>{{trans('header.tel')}}: +52 (987) 877 1927</p>
-            <p>{{trans('header.txtDir')}}:{{trans('header.dir')}}</p>
+            <p>{{trans('header.telUS')}}: 214 991 8890</p>
+            <p>{{trans('header.tel')}}: 9896603 </p>
+            <p>{{trans('header.txtDir')}}: {{trans('header.dir')}}</p>
         </div>
     </div>
     <div id="headerContainer">
@@ -41,7 +42,7 @@
                     {{ trans('header.4') }}
                 </a>
 
-                <a href="#">
+                <a href="{{ url('/contact') }}">
                     {{ trans('header.5') }}
                 </a>
             </nav>

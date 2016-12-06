@@ -92,7 +92,7 @@
                 <img src="{{trans('home.target2img')}}">
                 <img src="{{trans('home.target2img1')}}">
             </div>
-            <a href="{{url('/tours')}}">{{trans('home.masInfo')}}</a>
+            <a href="{{url('/tour/Scooter Tour')}}">{{trans('home.masInfo')}}</a>
         </div>
     </div>
 @endsection

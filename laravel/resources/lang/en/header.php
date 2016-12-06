@@ -8,7 +8,8 @@ return [
     '5'=>'Contact',
     'lang'=>url('lang',['es']),
     'imgLeng'=>url('/images/esp.png'),
+    'telUS'=>'Phone US',
     'tel'=>'Phone',
     'txtDir'=>'Address',
-    'dir'=>'I dont\' know'
+    'dir'=>'7th Street between E. Melgar and 5th Ave.'
 ];

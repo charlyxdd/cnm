@@ -10,5 +10,5 @@ return [
     'imgLeng'=>url('/images/eng.png'),
     'tel'=>'Tel',
     'txtDir'=>'Dirección',
-    'dir'=>'No lo sé'
+    'dir'=>'C. 7 entre Rafel E. Melgar y 5° ave'
 ];

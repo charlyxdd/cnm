@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="sccoter rentals tours Cozumel snorkeling Harley Davidson cnm rentals c&m cozumel rentas motos tour">
+    <meta name="author" content="DC-IT">
+    <meta name="description" content="rentals tours scooters harley davidson cozumel snorkeling cnm rentals c&m motos">
     <title>C & M Rentals</title>
     <link rel="icon" href="<?php echo url('/images/logo.png');?>">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">

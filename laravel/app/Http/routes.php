@@ -36,6 +36,9 @@ Route::group(['middleware' => ['web']], function () {
         return view('tour');
     });
 
+    Route::get('/contact',function(){
+        return view('contacto');
+    });
 
     Route::get('lang/{lang}', function ($lang) {
         session(['lang'=>$lang]);

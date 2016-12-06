@@ -43,6 +43,16 @@ html,body{
     margin-top:20px;
 }
 
+.imagenContainer{
+    width: 100%;
+}
+
+.imagenContainer img{
+    width: 30%;
+    display: inline-block;
+}
+
+
 @media screen and (max-width: 800px){
     #bannerContainer, #imgContainer{
         height: 250px;

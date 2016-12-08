@@ -57,6 +57,17 @@
         </div>
         <div id="imgContainer">
         </div>
+
+        <div id="bookContainer">
+            <div>
+
+            </div>
+            <div>
+                <a id="cmdBookNow" href="{{ secure_url('/contact') }}">
+                    {{trans('book.book')}}
+                </a>
+            </div>
+        </div>
     </div>
 @endsection
 

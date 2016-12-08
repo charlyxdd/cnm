@@ -34,7 +34,7 @@
                     {{ trans('header.2') }}
                 </a>
 
-                <a href="<?php echo url('/tours')?>">
+                <a href="<?php echo url('/tour/Scooter Tour')?>">
                     {{ trans('header.3') }}
                 </a>
 
@@ -42,7 +42,7 @@
                     {{ trans('header.4') }}
                 </a>
 
-                <a href="{{ url('/contact') }}">
+                <a href="{{ secure_url('/contact') }}">
                     {{ trans('header.5') }}
                 </a>
             </nav>

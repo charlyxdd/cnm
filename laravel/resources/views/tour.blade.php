@@ -234,6 +234,17 @@
 
         </div>
     </div>
+
+    <div id="bookContainer">
+        <div>
+
+        </div>
+        <div>
+            <a id="cmdBookNow" href="{{ secure_url('/contact') }}">
+                {{trans('book.book')}}
+            </a>
+        </div>
+    </div>
 @endsection
 
 @section('js')
